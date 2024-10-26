@@ -1,11 +1,9 @@
-import { Header } from '../elements/index';
+import { BasePage } from './base.page';
 import { SearchPage } from './search.page';
 
-export class App {
+export class App extends BasePage {
   constructor(page) {
-    this.page = page;
-    this.header = new Header(this.page);
-    this.searchPopup = new Header(this.page);
+    super(page);
     this.searchPage = new SearchPage(this.page);
   }
 
