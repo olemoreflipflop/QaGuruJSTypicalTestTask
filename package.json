@@ -1,0 +1,33 @@
+{
+  "name": "qagurujstypicaltesttask",
+  "version": "1.0.0",
+  "description": "QA guru js course - Homework after Lesson 10",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "uiMode": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "debug": "npx playwright test --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olemoreflipflop/QaGuruJSTypicalTestTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olemoreflipflop/QaGuruJSTypicalTestTask/issues"
+  },
+  "homepage": "https://github.com/olemoreflipflop/QaGuruJSTypicalTestTask#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.1",
+    "allure-playwright": "^3.0.5",
+    "dotenv": "^16.4.5",
+    "prettier": "3.3.3",
+    "allure-commandline": "^2.31.0"
+  },
+  "dependencies": {}
+}
